@@ -19,5 +19,10 @@ public class HelloWorld {
         // TODO code application logic here
         println("Hello World!");
     }
-    
+    void testConvert() {
+        byte x = -1;
+        assert x == (byte) 0b1111_1111;
+        int y = x;
+        assert y == -1;
+    }
 }
