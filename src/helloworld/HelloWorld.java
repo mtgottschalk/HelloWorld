@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package helloworld;
+import static kiss.API.*;
 
 /**
  *
@@ -16,6 +17,7 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        println("Hello World!");
     }
     
 }
