@@ -8,7 +8,9 @@ import static kiss.API.*;
  */
 public class HelloWorld {
     
-
+ public static void main(String[] args){
+ 
+ }
     void testRun(){
         try (Close out = outExpect("Hello World!")){
             run();
